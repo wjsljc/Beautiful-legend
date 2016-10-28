@@ -1,0 +1,2 @@
+# Beautiful-legend
+This is a traditional web based exercises, the use of jQuery+sass simulation data produced by imitation "beautiful" official website. All functions, including verification, registration and storage, and so on. Note that this paper provides the interface method call mobile phone verification API, you only need to "register.js" in "getCheckNum" function to add the API interface address and related information to the head of "headers". If you do not need this feature, please modify the code accordingly.
