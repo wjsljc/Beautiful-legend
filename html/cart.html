@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>我的购物车</title>
+		<link href="../img/titleImg/titleImg.png" rel="SHORTCUT ICON" id="title-pic"/> 
+		<link rel="stylesheet" type="text/css" href="../css/cart.css"/>
+		<script src="../js/jquery-1.12.4.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/cart.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="header">
+			<div class="header-info">
+				<div class="container-in">
+					<a href="http://www.meilishuo.com" rel="nofollow" class="home">美丽说首页</a>
+					<ul class="header-ul">
+						<li class="register"><a href="register.html">注册</a></li>
+						<li class="login"><a href="login.html">登录</a></li>
+						<li class="dorp userBox">
+        					<a href="javascript:;"><span id="userName"></span><em class="arrow"></em></a>
+        					<ul class="down">
+        						<li><a href="javascript:;">账号与安全</a></li>
+        						<li><a href="javascript:;" id="exit">退出</a></li>
+        					</ul>
+        				</li>
+						<li class="order padding"><a href="order.html">我的订单</a></li>
+						<li class="cart padding"><a href="javascript:;">购物车</a></li>
+						<li class="drop padding">
+							<a href="javascript:;"><span>帮助中心</span><em class="arrow"></em></a>
+        					<ul class="down">
+        						<li><a href="javascript:;">买家服务</a></li>
+        						<li><a href="javascript:;">商家服务</a></li>
+        						<li><a href="javascript:;">规则中心</a></li>
+        					</ul>
+        				</li>
+						</li>
+						<li class="sjht padding"><a href="javascript:;">商家后台</a></li>			
+					</ul>
+				</div>
+			</div>
+			<div class="header-process">
+				<div class="process-in">
+					<div class="logo"></div>
+					<div class="process-bar">
+						<img src="../img/cart/procesee.png" alt="" />
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="article">
+			<div class="shop-container">
+				<div class="cart-title">
+					<ul>
+						<li><a href="javascript::" class="cur">全部商品<span id="allShopNum">(4)</span></a></li>
+						<li><a href="javascript::">优惠<span>(1)</span></a></li>
+						<li><a href="javascript::">库存紧张<span>(0)</span></a></li>
+					</ul>
+				</div>
+				<div class="cart-shop">
+					<table class="cart_table">
+						<thead>
+							<tr>
+								<th class="cart_table_check_wrap cart_alleft pl10">
+									<input type="checkbox" name="s_all" class="s_all tr_checkmr" id="s_all_h"> 
+									<label for="s_all_h">全选</label> 
+								</th> 
+								<th class="cart_table_goods_wrap">商品</th>
+								<th class="cart_table_goodsinfo_wrap">商品信息</th> 
+								<th>单价(元)</th>
+								<th class="cart_table_goodsnum_wrap">数量</th> 
+								<th class="cart_table_goodssum_wrap">小计(元)</th> 
+								<th class="cart_table_goodsctrl_wrap">操作</th> 
+							</tr>
+						</thead>
+						<tbody id="tbody">
+
+						</tbody>
+					</table>
+				</div>
+				<div class="cart_paybar wrap" id="cartPaybar"> 
+					<a href="order.html" class="cart_paybtn fr cart_paybtn_disable" id="payBtn">
+						去付款
+					</a> 
+					<div class="cart_paybar_info_cost cart_deep_red cart_bold cart_font26 cart_money fr goodsSum">
+						¥ 0.00
+					</div> 
+					<div class="cart_paybar_info cart_pregray fr">
+						 共有 
+						 <span class="cart_deep_red goodsNum">0</span> 件商品，总计：
+					</div> 
+					<div class="cart_paybar_vmbox"> 
+						<input type="checkbox" name="s_all" class="s_all_slave cart_vm" id="s_all_f"> 
+							<label for="s_all_f" class="mr10">全选</label>
+							<a href="javascript:;" class="mr10 cart_uline cart_pregray" id="cartRemoveChecked">删除</a> 
+							<a href="javascript:;" class="mr10 cart_uline cart_pregray" id="cartRemoveUnuse">清空失效商品</a>
+					</div> 
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+		    <p title="mofa015027">
+		        <a href="http://www.meilishuo.com" target="_blank">美丽说</a>
+		        © 2016 Meilishuo.com,All Rights Reserved.
+		    </p>
+		    <div class="icons">
+		        <a class="vs" href="javascript:;"></a>
+		        <a class="mc" href="javascript:;"></a>
+		        <a class="up" href="javascript:;"></a>
+		        <a class="pa" href="http://bank.pingan.com/index.shtml" target="_blank"></a>
+		        <a class="kx" href="https://ss.knet.cn/verifyseal.dll?sn=e14090533010053532r3hn000000&amp;ct=df&amp;a=1&amp;pa=500267&amp;tp=1.0.20.0.28.KXYH9AB" target="_blank"></a>
+		        <a class="pc" href="http://www.pingpinganan.gov.cn/" target="_blank"></a>
+		    </div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,26 @@
+[
+	{
+		"status":200,
+		"message":"sucess",
+		"data" : {
+			"phone" : "15680869151",
+			"nickname" : "小高",
+			"password" : "xiaogao",
+			"sex" : "男",
+			"scroe" : 100,
+			"level" : "普通会员"
+		}
+	},
+	{
+		"status":200,
+		"message":"sucess",
+		"data" : {
+			"phone" : "15680869152",
+			"nickname" : "小超",
+			"password" : "xiaochao",
+			"sex" : "男",
+			"scroe" : 100,
+			"level" : "普通会员"
+		}
+	}
+]

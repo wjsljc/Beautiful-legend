@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>注册-美丽说</title>
+		<link href="../img/titleImg/titleImg.png" rel="SHORTCUT ICON" id="title-pic"/> 
+		<link rel="stylesheet" type="text/css" href="../css/register.css"/>
+		<script src="../js/jquery-1.12.4.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/register.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="all">
+			<div class="container">
+				<div class="header">
+					<a href="#"></a>
+				</div>
+				<div class="main">
+					<div class="main-ad">
+						<img src="../img/register/main-ad.png" alt="" />
+					</div>
+					<div class="regForm">
+						<h3>
+							注册美丽说
+							<a href="login.html">登录</a>
+						</h3>
+						<div class="reg-row">
+							<input type="text" class="reg-info" id="phone" placeholder="手机号"/>
+							<span class="tel-reg"></span>
+							<span class="checkList"></span>
+							<div class="waring-info">你还没有填写手机号哦。</div>
+						</div>
+						<div class="reg-row">
+							<input type="text" class="reg-info" id="nickName" placeholder="昵称"/>
+							<span class="nickName-reg"></span>
+							<span class="checkList"></span>
+							<div class="waring-info">你还没有填写昵称哦。</div>
+						</div>
+						<div class="reg-row">
+							<input type="password" class="reg-info" id="passWord" placeholder="密码"/>
+							<span class="psd-reg"></span>
+							<span class="checkList"></span>
+							<div class="waring-info">你还没有填写密码哦。</div>
+							<div class="pas-level">
+								<span class="psdText">安全程度</span>
+								<div class="level">
+									<span class="week">弱</span>
+									<span class="soso">中</span>
+									<span class="strong">强</span>
+								</div>
+							</div>
+						</div>
+						<div class="reg-row last">
+							<input type="password" class="reg-info" id="rePassWord" placeholder="确认密码"/>
+							<span class="rePsd-reg"></span>
+							<span class="checkList"></span>
+							<div class="waring-info">你还没有填写确认密码哦。</div>
+						</div>
+						<div class="yzm">
+							<input type="text" class="dxyzm" placeholder="短信验证码"/>
+							<input type="button" class="getYzm" value="获取短信验证码"/>
+							<div class="yamText"></div>
+							<span class="checkList"></span>
+						</div>
+						<div class="reg-btn">
+							<input type="button"  value="立即注册"  id="register" class="regBtn"/>
+						</div>
+						<div class="agree">
+							<input type="checkbox" id="readBox" checked/>
+							同意
+							<a href="http://act.meilishuo.com/wap/1003">《美丽说注册条款》</a>
+							<div class="waring-info">
+								需要同意美丽说服务使用协议。
+							</div>
+						</div>
+						<div class="other-login">
+							<h3>无需登录，即可注册</h3>
+							<div class="other-way">
+								<a href="/connect/auth/qzone" class="qq_way"></a>
+								<a href="/connect/auth/weibo" class="weibo_way"></a>
+								<a href="/connect/auth/weixin" class="weixin_way"></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="zzc"></div>
+		<div id="yzmPic">
+			<div class="yzmPic-title">
+				<span class="yzmPicX"></span>
+				<span class="yzmPic-text">获取短信验证码</span>
+			</div>
+			<div class="yzmPic-main">
+				<p>请点击下方图片旋转至正确位置，进行验证！</p>
+				<div class="picCheck">
+					<ul>
+						<li><a href="javascript:;"><img src="../img/register/picCheck01.jpg" /></a></li>
+						<li><a href="javascript:;"><img src="../img/register/picCheck02.jpg" /></a></li>
+						<li><a href="javascript:;"><img src="../img/register/picCheck03.jpg" /></a></li>
+						<li><a href="javascript:;"><img src="../img/register/picCheck04.jpg"  /></a></li>
+					</ul>
+					<a href="javascript:;" id="changePic">换一组</a>
+				</div>
+				<span class="waring-pic">图片验证错误</span>
+				<input type="button"  id="sub" value="提交" />
+			</div>
+		</div>
+	</body>
+</html>

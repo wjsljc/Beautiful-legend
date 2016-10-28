@@ -1,0 +1,99 @@
+/*common*/
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { margin: 0; padding: 0; }
+
+h1, h2, h3, h4, h5, h6 { font-size: 12px; font-weight: normal; }
+
+body { font-size: 12px; font-family: Arial,'Microsoft YaHei'; color: #666666; position: relative; background: url(../img/register/register_bg.jpg) no-repeat; }
+
+ul, li { list-style: none; }
+
+img { border: none; vertical-align: bottom; }
+
+a { text-decoration: none; }
+
+input { resize: none; outline: none; font-family: Arial; word-wrap: break-word; }
+
+/* article*/
+.all { width: 100%; padding-bottom: 50px; overflow: hidden; }
+
+.container { width: 980px; margin: 0 auto; }
+
+.header { padding-top: 40px; padding-bottom: 30px; display: block; }
+
+.header a { display: inline-block; width: 193px; height: 48px; margin-right: 25px; background: url(../img/register/logo.png) no-repeat; }
+
+.main { background-color: #fff; padding-top: 40px; padding-right: 50px; padding-left: 80px; overflow: hidden; padding-bottom: 50px; }
+
+.main-ad { float: left; }
+
+.main-ad img { width: 370px; height: 353px; }
+
+.regForm { float: right; width: 320px; margin-right: 30px; }
+
+.regForm h3 { font-size: 14px; padding-top: 10px; padding-bottom: 15px; font-weight: bold; font-family: arial; }
+
+.regForm h3 a { color: #f69; text-decoration: underline; float: right; font-weight: normal; padding-right: 3px; }
+
+.reg-row { height: 68px; position: relative; }
+
+.reg-row .reg-info { width: 280px; height: 34px; line-height: 34px; border: 1px solid #ddd; color: #999; padding-left: 35px; }
+
+.reg-row .tel-reg, .reg-row .nickName-reg, .reg-row .psd-reg, .reg-row .rePsd-reg { background: url(../img/register/reg.png) no-repeat; display: inline-block; width: 25px; height: 25px; position: absolute; background-position: -75px 0; top: 6px; left: 5px; }
+
+.reg-row .nickName-reg { background-position: 0 0; }
+
+.reg-row .psd-reg { background-position: -25px 0; }
+
+.reg-row .rePsd-reg { background-position: -25px 0; }
+
+.regBtn { color: #fff; display: block; font-size: 16px; text-align: center; border: 0; width: 320px; height: 46px; background-color: #f69; line-height: 46px; cursor: pointer; }
+
+.checkList, .ok, .error { background: url(../img/register/reg.png) no-repeat; display: inline-block; width: 25px; height: 25px; position: absolute; top: 6px; right: -30px; display: none; }
+
+.ok { background-position: -50px -25px; }
+
+.error { background-position: -25px -25px; }
+
+.waring-info { width: 100%; height: 30px; line-height: 30px; color: #FF6699; display: none; }
+
+.agree { padding-bottom: 20px; color: #999; border-bottom: 1px dotted #ccc; line-height: 30px; height: 36px; }
+
+.agree p { font-family: arial; }
+
+.agree a { color: #FF6699; padding-left: 16px; text-decoration: underline; font-family: arial; font-size: 12px; letter-spacing: 1px; }
+
+.other-login h3 { padding-top: 20px; padding-bottom: 15px; font-size: 14px; font-weight: normal; }
+
+.other-way a { float: left; width: 100px; height: 35px; background: url(../img/register/otherLoginWay.png) no-repeat; }
+
+.other-way .qq_way { background-position: 0 -120px; }
+
+.other-way .weibo_way { background-position: 0 -160px; margin-left: 10px; margin-right: 10px; }
+
+.other-way .weixin_way { background-position: 0 -200px; }
+
+#yzmPic { width: 430px; height: auto; top: 110.25px; left: 50%; margin-left: -215px; padding: 7px; background: rgba(102, 102, 102, 0.5); position: fixed; _position: absolute; z-index: 805; display: none; }
+
+.yzmPic-title { background: #eaeceb; font-size: 14px; font-weight: bold; padding: 0 10px; height: 36px; line-height: 36px; }
+
+.yzmPicX { cursor: pointer; float: right; background: url(../img/register/yzm.png) no-repeat -47px -70px; height: 11px; margin-top: 12px; width: 11px; }
+
+.yzmPic-main { min-height: 68px; }
+
+.yzmPic-main p { line-height: 30px; }
+
+.picCheck { width: 100%; padding-bottom: 5px; overflow: hidden; }
+
+.picCheck ul { display: inline-block; }
+
+.picCheck ul li { display: inline-block; width: 60px; height: 60px; vertical-align: bottom; margin-right: 2px; }
+
+.picCheck ul li a img { width: 100%; height: 100%; cursor: pointer; }
+
+#changePic { text-decoration: underline; color: #FF6699; }
+
+#zzc { width: 100%; position: absolute; background: rgba(0, 0, 0, 0.6); display: none; z-index: 500; top: 0; left: 0; }
+
+.waring-pic { color: #f69; position: relative; display: none; margin-bottom: 12px; }
+
+/*# sourceMappingURL=login.css.map */
